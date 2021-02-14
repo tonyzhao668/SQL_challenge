@@ -19,7 +19,8 @@ Tony Zhao finished 15/02/2021 DBCUWA
 
 * (Optional) Create a Jupyter Notebook of the bonus analysis.
 
-    Not included.
+    Finished and included. 
+    Remarks: please noticed the username and password for SQLAlchemy are not supplied.
 
 * Create and upload a repository with the above files to GitHub and post a link on BootCamp Spot.
 
