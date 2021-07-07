@@ -52,11 +52,7 @@ To do the following:
 #### Sqlalchemy operation
 
 1. Import the SQL database into Pandas. 
-   ```sql
-   from sqlalchemy import create_engine
-   engine = create_engine('postgresql://localhost:5432/<your_db_name>')
-   connection = engine.connect()
-   ```
+   
    
 * Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 
