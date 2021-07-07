@@ -85,5 +85,5 @@ To do the following:
 * The Jupyter Notebook of the sqlalchemy analysis.
 ![Sqlalchemy](Images/sqlalchemy.PNG)
  
-    Remarks: please noticed the username and password for SQLAlchemy are not supplied.
+    Remarks: please noticed the username and password for PostgreSql are not supplied.
 
