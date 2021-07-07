@@ -86,4 +86,5 @@ To do the following:
 ![Sqlalchemy](Images/sqlalchemy.PNG)
  
     Remarks: please noticed the username and password for PostgreSql are not supplied.
-
+    
+* **Job done!**
