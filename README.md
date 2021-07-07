@@ -1,8 +1,6 @@
 # SQL_challenge
 Tony Zhao finished 15/02/2021 
 
-![sql.png](sql.png)
-
 ## Background
 
 The task is a research project on employees of the corporation from the 1980s and 1990s. All that remain of the database of employees from that period are six CSV files.
@@ -35,6 +33,7 @@ Inspect the CSVs and sketch out an ERD of the table, to use a tool like [http://
 To do the following:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
+![Employee](Images/query2.PNG)
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
 
@@ -58,7 +57,7 @@ To do the following:
    engine = create_engine('postgresql://localhost:5432/<your_db_name>')
    connection = engine.connect()
    ```
-
+   
 * Consult [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql) for more information.
 
 
@@ -66,36 +65,25 @@ To do the following:
 
 3. Create a bar chart of average salary by title.
 
-## Finally
 
-* Create an image file of ERD.
+## Finally the repo included the followings:
 
-* Create a `.sql` file of table schemata.
+* The image file of my ERD.
+![ERD](Images/ERD.PNG)
 
-* Create a `.sql` file of queries.
-
-* Create a Jupyter Notebook of the sqlalchemy analysis.
-
-## The repo included the followings:
-
-* Create an image file of my ERD.
-
-    Done and included.
     
-* Create a `schema.sql` file of my table schemata.
+* The `schema.sql` file of my table schemata.
+![Schema](Images/schema.PNG)
 
-    Done and included.
-    Tested trouble free.
 
-* Create a `employeesSQL.sql` file of my queries.
+* The `employeesSQL.sql` file of my queries.
+![Query](Images/query.PNG)
 
-    Done and included, please noticed there is table schemata at the file top too.
-    Everything has been running through and trouble free.
     
 * The original resources files included.
 
-* Create a Jupyter Notebook of the bonus analysis.
-
-    Finished and included. 
+* The Jupyter Notebook of the sqlalchemy analysis.
+![Sqlalchemy](Images/sqlalchemy.PNG)
+ 
     Remarks: please noticed the username and password for SQLAlchemy are not supplied.
 

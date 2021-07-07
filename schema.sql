@@ -1,4 +1,4 @@
---Tony Zhao : homework for SQL_challenge 15/02/2021
+--Tony Zhao : for SQL_challenge 15/02/2021
 --The query part in the file: employeesSQL.sql
 
 DROP TABLE IF EXISTS department
